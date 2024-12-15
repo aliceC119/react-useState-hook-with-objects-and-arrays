@@ -1,13 +1,14 @@
-import css from './App.module.css';
-import UseStateWithArrays from "./components/UseStateWithArrays";
+import "./App.css";
+// import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+// import HooksCounter from "./components/HooksCounter";
+import UseStateWithObjects from "./components/UseStateWithObjects";
 
 function App() {
-  return (
-    <div className={css.App}>
-      {/* Add your components here */}
-      <UseStateWithArrays />
-    </div>
-  );
+  return <div className="App">
+      {/* <StatefulGreetingWithPrevState />
+      <HooksCounter /> */}
+      <UseStateWithObjects />
+  </div>;
 }
 
 export default App;
